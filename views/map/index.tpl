@@ -123,7 +123,7 @@
 %    else:
 %        s = ""
 %    end
-  <li{{!s}}><a href="{{"http://" + website + "/" + k + request.path + "?" + request.query_string}}">{{v}} ({{k}})</a></li>
+  <li{{!s}}><a href="{{"/" + k + request.path + "?" + request.query_string}}">{{v}} ({{k}})</a></li>
 %end
 </ul>
 </li>
